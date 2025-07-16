@@ -75,13 +75,13 @@ export default App;
 
 ## 🔧 Options
 
-| Option         | Type              | Description                                                        |
-|---------------|-------------------|--------------------------------------------------------------------|
-| basePath       | string            | Base path to your frames (e.g., /Assets/Extracted-Frames/frame_)   |
-| frameCount     | number            | Total number of frames                                             |
-| scrollRange    | [number, number]  | Scroll percentage range (e.g., [0, 0.7])                           |
-| fileExtension  | string            | File type (e.g., jpeg, png). Default is jpeg.                      |
-| frames         | string[]          | Optional: Array of full image URLs (overrides basePath logic)      |
+| Option          | Type              | Required | Description                                                                     |
+| --------------- | ----------------- | -------- | ------------------------------------------------------------------------------- |
+| `basePath`      | string            | ✅        | Base path for your frames, excluding frame number and file extension            |
+| `frameCount`    | number            | ✅        | Total number of frames                                                          |
+| `scrollRange`   | [number, number]  | ❌        | Scroll percentage range for animation (between `0` and `1`) — default: `[0, 1]` |
+| `fileExtension` | string            | ❌        | File extension for images — default: "jpeg"                                   |
+| `frames`        | string[]          | ❌        | Alternative to `basePath` — use array of full image URLs instead                |
 
 ---
 
