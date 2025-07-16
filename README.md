@@ -9,7 +9,7 @@
 ---
 
 **Version**: `1.0.0`  
-A lightweight React hook for creating smooth frame-by-frame scroll animations using canvas.
+A lightweight React package for creating smooth frame-by-frame scroll animations.
 
 ---
 
