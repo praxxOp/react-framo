@@ -1,5 +1,13 @@
 # react-framo ![npm](https://img.shields.io/npm/v/react-framo)
 
+---
+
+## 🎬 Demo
+
+[▶️ **Try it**](https://athlic.netlify.app/)
+
+---
+
 **Version**: `1.0.0`  
 A lightweight React hook for creating smooth frame-by-frame scroll animations using canvas.
 
@@ -21,12 +29,6 @@ Using npm:
 
 ```bash
 npm install react-framo
-```
-
-Using yarn:
-
-```bash
-yarn add react-framo
 ```
 
 ---
