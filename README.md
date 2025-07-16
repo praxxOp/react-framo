@@ -22,13 +22,16 @@ Using npm:
 ```bash
 npm install react-framo
 
-Using yarn: 
-```bash 
+Using yarn:
+
+bash
+Copy
+Edit
 yarn add react-framo
-
-
 🚀 Basic Usage Example
-
+jsx
+Copy
+Edit
 import React from "react";
 import { motion } from "motion/react";
 import { useFrameSequence } from "react-framo";
@@ -62,39 +65,39 @@ function App() {
 }
 
 export default App;
+🔧 Options
+Option	Type	Description
+basePath	string	Base path to your frames (e.g., /Assets/Extracted-Frames/frame_)
+frameCount	number	Total number of frames
+scrollRange	[number, number]	Scroll percentage range (e.g., [0, 0.7])
+fileExtension	string	File type (e.g., jpeg, png). Default is jpeg.
+frames	string[]	Optional: Array of full image URLs (overrides basePath logic)
 
-| Option          | Type              | Description                                                           |
-| --------------- | ----------------- | --------------------------------------------------------------------- |
-| `basePath`      | string            | Base path to your frames (e.g., `/Assets/Extracted-Frames/frame_`)    |
-| `frameCount`    | number            | Total number of frames                                                |
-| `scrollRange`   | \[number, number] | Scroll percentage range where the animation occurs (e.g., `[0, 0.7]`) |
-| `fileExtension` | string            | Extension of your image files (`jpeg`, `png`, etc). Default: `jpeg`   |
-| `frames`        | string\[]         | Optional: Array of full image URLs (overrides basePath logic)         |
-
-
-| Return Value   | Type              | Description                            |
-| -------------- | ----------------- | -------------------------------------- |
-| `canvasRef`    | `React.RefObject` | Attach this to your `<canvas />`       |
-| `currentIndex` | number            | Current frame index (1-based)          |
-| `isLoaded`     | boolean           | Whether all frames are fully preloaded |
+📤 Return Values
+Return Value	Type	Description
+canvasRef	React.RefObject	Attach this to your <canvas />
+currentIndex	number	Current frame index (1-based)
+isLoaded	boolean	Whether all frames are fully preloaded
 
 📁 Folder Structure for Frames
-If you use basePath, your folder should look like this:
+If you're using basePath, your folder should look like this:
+
+swift
+Copy
+Edit
 /Assets/Extracted-Frames/
   ├── frame_0001.jpeg
   ├── frame_0002.jpeg
   ├── ...
   └── frame_0121.jpeg
-
-Use zero-padded filenames to match the default naming logic.
+✅ Make sure file names are zero-padded to match the expected format.
 
 💡 Tips
 Use consistent naming like frame_0001.jpeg, frame_0002.jpeg, etc.
 
-Control the scroll animation range with scrollRange (e.g., [0, 0.7])
+Customize scroll animation range with scrollRange.
 
-Use the frames array if your images are hosted remotely or follow custom naming.
+Use the frames array if your images are hosted remotely or have custom names.
 
 📃 License
 MIT © Prathamesh Shelke
-
