@@ -21,4 +21,10 @@ Using npm:
 
 ```bash
 npm install react-framo
+```
+using yarn :
+
+ ```bash
+   yarn install react-framo
+```
 
