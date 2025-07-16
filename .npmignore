@@ -1,0 +1,19 @@
+# Don't publish these folders
+node_modules/
+src/
+
+# Build/config files
+vite.config.js
+.gitignore
+.npmignore
+package-lock.json
+
+# IDE/editor config
+.vscode/
+.DS_Store
+
+# Log files
+*.log
+
+# Other
+README-draft.md
