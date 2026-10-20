@@ -9,6 +9,14 @@
   },
   "author": "Prathamesh Shelke",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praxxOp/react-framo.git"
+  },
+  "homepage": "https://github.com/praxxOp/react-framo#readme",
+  "bugs": {
+    "url": "https://github.com/praxxOp/react-framo/issues"
+  },
   "keywords": [
     "react",
     "canvas",

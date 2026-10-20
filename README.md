@@ -79,9 +79,9 @@ export default App;
 | --------------- | ----------------- | -------- | ------------------------------------------------------------------------------- |
 | `basePath`      | string            | ✅        | Base path for your frames, excluding frame number and file extension            |
 | `frameCount`    | number            | ✅        | Total number of frames                                                          |
-| `scrollRange`   | [number, number]  | ❌        | Scroll percentage range for animation (between `0` and `1`) — default: `[0, 1]` |
-| `fileExtension` | string            | ❌        | File extension for images — default: "jpeg"                                   |
-| `frames`        | string[]          | ❌        | Alternative to `basePath` — use array of full image URLs instead                |
+| `scrollRange`   | [number, number]  | ❌        | Scroll percentage range for animation (between `0` and `1`). Default: `[0, 1]`  |
+| `fileExtension` | string            | ❌        | File extension for images. Default: `"jpeg"`                                    |
+| `frames`        | string[]          | ❌        | Alternative to `basePath`: an array of full image URLs                          |
 
 ---
 
@@ -119,7 +119,13 @@ If you're using `basePath`, your folder should look like this:
 
 ---
 
+## 📝 Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for the release history.
+
+---
+
 ## 📃 License
 
-MIT © Prathamesh Shelke
+MIT © Prathamesh Shelke. See [LICENSE](LICENSE) for details.
 
