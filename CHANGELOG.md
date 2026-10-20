@@ -14,11 +14,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Changed
 
-- README now links to the changelog and license, and the options table wording is cleaner.
+- README now links to the npm package, the changelog and the license, and the options table wording is cleaner.
 
 ## [1.0.0] (2025-07-16)
 
-First public release on npm.
+First public release on [npm](https://www.npmjs.com/package/react-framo/v/1.0.0).
 
 ### Added
 

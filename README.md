@@ -1,4 +1,4 @@
-# react-framo ![npm](https://img.shields.io/npm/v/react-framo)
+# react-framo [![npm](https://img.shields.io/npm/v/react-framo)](https://www.npmjs.com/package/react-framo)
 
 ---
 
@@ -24,6 +24,8 @@ A lightweight React package for creating smooth frame-by-frame scroll animations
 ---
 
 ## 📦 Installation
+
+The package is published on npm: [react-framo](https://www.npmjs.com/package/react-framo)
 
 Using npm:
 
